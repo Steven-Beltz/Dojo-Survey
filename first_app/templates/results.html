@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1> Submitted Info </h1>
-    <p>Name: {{name}}</p>
-    <p>Location: {{location}}</p>
-    <p>Language: {{language}}</p>
-    <p>Comment: {{comment}}</p>
+    <p>Name: {{request.session.name}}</p>
+    <p>Location: {{request.session.location}}</p>
+    <p>Language: {{request.session.language}}</p>
+    <p>Comment: {{request.session.comment}}</p>
 </body>
 </html>
